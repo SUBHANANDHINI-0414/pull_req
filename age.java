@@ -1,14 +1,14 @@
 class age {
-int a;
+int b;
 age()
 {
 System.out.println("constructor call");
-a=49;
+b=50;
 }
 public static void main(String args[])
 {
 age obj = new age();
-System.out.println("The number is:"+obj.a);
+System.out.println("The number is:"+obj.b);
 }
 }
 
